@@ -1,7 +1,7 @@
 const gulp = require ('gulp');
 const sass = require ('gulp-sass')(require("sass"));
 
-const entryPath = 'Best;
+const entryPath = 'BestShopMobile';
 
 gulp.task('compileSass', function () {
     return gulp.src(entryPath + "/scss/main.scss")
