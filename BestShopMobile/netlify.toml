@@ -1,0 +1,4 @@
+[build]
+  publish = "dist"
+  command = "gulp build"
+  base = "refs/heads/main"
